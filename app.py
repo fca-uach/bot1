@@ -5,9 +5,9 @@ st.balloons()
 # Show title and description.
 st.title("💬 La Cybermoneda Tibetana ´Onlain´")
 st.write(
-   "Pregúntame lo que quieras saber, solo aguanta las respuestas... "
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-   "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+   "Pregúntame lo que quieras saber, solo aguanta... "
+   "Las respuestas que te proporciono se basan en las milenarias y místicas enseñanzas de barrio bajo de Chihuahua."
+   "Queda estrictamente prohibido agredir a tu pareja por consecuencia de las respuestas. "
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
