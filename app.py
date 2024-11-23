@@ -5,8 +5,8 @@ st.balloons()
 # Show title and description.
 st.title("💬 La Cybermoneda Tibetana ´Onlain´")
 st.write(
-   "Pregúntame lo que quieras saber, solo aguanta... "
-   "Las respuestas que te proporciono se basan en las milenarias y místicas enseñanzas de barrio bajo de Chihuahua."
+   "Pregúntame lo que quieras saber, solo aguanta... \n"
+   "Las respuestas que te proporciono se basan en las milenarias y místicas enseñanzas de barrio bajo de Chihuahua. \n "
    "Queda estrictamente prohibido agredir a tu pareja por consecuencia de las respuestas. "
 )
 openai_api_key = st.secrets["api_key"] 
